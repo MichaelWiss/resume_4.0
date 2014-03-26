@@ -1239,7 +1239,7 @@
 // $range-slider-handle-bg-hover-color: scale-color($primary-color, $lightness: -12%);
 // $range-slider-handle-cursor: pointer;
 
-#moby{background:#43CC53;}
+#moby{background:#BCD1C6;}
 
 
 .border{
@@ -1298,6 +1298,7 @@ left: 0;}
         -o-transition: 0.15s ease;
         transition: 0.15s ease;
    }
+   #menu a:hover{background-color:red;}
 
     #menu.active {
         background: #D6D5CE;
