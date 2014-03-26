@@ -1239,6 +1239,45 @@
 // $range-slider-handle-bg-hover-color: scale-color($primary-color, $lightness: -12%);
 // $range-slider-handle-cursor: pointer;
 
+#moby{background:#43CC53;}
+
+
+.border{
+position: fixed;
+background-color: white;
+z-index: 500;
+}
+.border.border-top {
+
+width: 100%;
+height: 20px;
+/*top: -20px;*/
+top: 0;
+left:0;}
+
+.border.border-left{
+width: 20px;
+height: 100%;
+right: 0;
+top: 0;
+/*left: -20px;*/
+
+}
+
+.border.border-right {
+width: 20px;
+height: 100%;
+left: 0;
+/*right: -20px;*/
+top: 0;
+}
+
+.border.border-bottom {
+width: 100%;
+height: 20px;
+/*bottom: -20px;*/
+bottom: 0;
+left: 0;}
 
 #menu {
          position: fixed;
@@ -1275,6 +1314,6 @@
 
 .menu-link {
       position: absolute;
-      top: 45px;
-      left: -150px;
+      top: 35px;
+      left: -75px;
 }
